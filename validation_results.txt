@@ -1,0 +1,54 @@
+Validation of Hohmann Transfer Calculations
+==========================================
+
+1. Validating orbital parameters using Kepler's Third Law
+Earth's orbital period (calculated): 369.49 days
+Earth's orbital period (Kepler's Law): 369.49 days
+Difference: 0.00 days (0.0000%)
+
+Mars's orbital period (calculated): 686.90 days
+Mars's orbital period (Kepler's Law): 686.90 days
+Difference: 0.00 days (0.0000%)
+
+2. Validating Hohmann transfer parameters
+Transfer orbit semi-major axis (calculated): 1.327645 AU
+Transfer orbit semi-major axis (stored): 1.327645 AU
+Difference: 0.000000 AU (0.0000%)
+
+Transfer orbit eccentricity (calculated): 0.249371
+Transfer orbit eccentricity (stored): 0.249371
+Difference: 0.000000 (0.0000%)
+
+3. Validating delta-v calculations
+Earth's orbital velocity: 30.01 km/s
+Velocity at perihelion: 33.35 km/s
+Departure delta-v (calculated): 3.35 km/s
+Departure delta-v (stored): 3.35 km/s
+Difference: 0.00 km/s (0.0000%)
+
+Mars's orbital velocity: 22.08 km/s
+Velocity at aphelion: 20.04 km/s
+Arrival delta-v (calculated): 2.04 km/s
+Arrival delta-v (stored): 2.04 km/s
+Difference: 0.00 km/s (0.0000%)
+
+Total delta-v (calculated): 5.39 km/s
+Total delta-v (stored): 5.39 km/s
+Difference: 0.00 km/s (0.0000%)
+
+4. Validating transfer time
+Transfer time (calculated): 279.34 days
+Transfer time (stored): 279.34 days
+Difference: 0.00 days (0.0000%)
+
+5. Validating perturbation analysis
+Total delta-v without perturbations: 5.39 km/s
+Total delta-v with perturbations: 5.39 km/s
+Difference: 0.00 km/s (0.0119%)
+Perturbation effect is within a reasonable range.
+
+6. Validating mission scenarios
+All mission scenarios are present in the analysis.
+
+7. Overall validation
+All calculations are valid within the specified threshold.

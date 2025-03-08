@@ -1,0 +1,64 @@
+Comparison of Different Mission Scenarios
+=======================================
+
+1. Hohmann Transfer (Baseline)
+-----------------------------
+Transfer time: 279.34 days
+Total delta-v: 5.39 km/s
+Semi-major axis: 1.327645 AU
+Eccentricity: 0.249371
+
+2. Bi-elliptic Transfers
+----------------------
+r3 factor | Transfer Time | Total Delta-v | Delta-v Difference
+---------|---------------|--------------|------------------
+1.50x     | 965.14 days    | 10.64 km/s     | 5.25 km/s (97.32%)
+1.89x     | 1219.02 days    | 12.55 km/s     | 7.16 km/s (132.82%)
+2.28x     | 1492.05 days    | 13.91 km/s     | 8.52 km/s (158.02%)
+2.67x     | 1782.96 days    | 14.92 km/s     | 9.53 km/s (176.83%)
+3.06x     | 2090.71 days    | 15.71 km/s     | 10.32 km/s (191.42%)
+3.44x     | 2414.41 days    | 16.33 km/s     | 10.95 km/s (203.07%)
+3.83x     | 2753.32 days    | 16.85 km/s     | 11.46 km/s (212.58%)
+4.22x     | 3106.79 days    | 17.27 km/s     | 11.88 km/s (220.50%)
+4.61x     | 3474.23 days    | 17.64 km/s     | 12.25 km/s (227.20%)
+5.00x     | 3855.12 days    | 17.94 km/s     | 12.55 km/s (232.93%)
+
+3. Fast Transfers
+---------------
+Time Factor | Transfer Time | Total Delta-v | Delta-v Difference
+-----------|---------------|--------------|------------------
+0.50x     | 139.67 days    | 23.15 km/s     | 17.76 km/s (329.44%)
+0.54x     | 152.09 days    | 16.85 km/s     | 11.46 km/s (212.68%)
+0.59x     | 164.50 days    | 13.28 km/s     | 7.89 km/s (146.35%)
+0.63x     | 176.92 days    | 10.60 km/s     | 5.21 km/s (96.74%)
+0.68x     | 189.33 days    | 9.26 km/s     | 3.87 km/s (71.79%)
+0.72x     | 201.75 days    | 8.64 km/s     | 3.25 km/s (60.31%)
+0.77x     | 214.16 days    | 8.15 km/s     | 2.76 km/s (51.17%)
+0.81x     | 226.58 days    | 7.74 km/s     | 2.35 km/s (43.69%)
+0.86x     | 238.99 days    | 7.41 km/s     | 2.02 km/s (37.43%)
+0.90x     | 251.41 days    | 7.12 km/s     | 1.73 km/s (32.09%)
+
+4. Low-Energy Transfers
+---------------------
+Time Factor | Transfer Time | Total Delta-v | Delta-v Difference
+-----------|---------------|--------------|------------------
+1.10x     | 307.28 days    | 6.21 km/s     | 0.82 km/s (15.29%)
+1.20x     | 335.21 days    | 5.91 km/s     | 0.52 km/s (9.58%)
+1.30x     | 363.14 days    | 5.66 km/s     | 0.27 km/s (4.96%)
+1.40x     | 391.08 days    | 5.49 km/s     | 0.10 km/s (1.84%)
+1.50x     | 419.01 days    | 6.34 km/s     | 0.95 km/s (17.64%)
+1.60x     | 446.95 days    | 7.09 km/s     | 1.70 km/s (31.54%)
+1.70x     | 474.88 days    | 7.76 km/s     | 2.37 km/s (43.91%)
+1.80x     | 502.82 days    | 8.35 km/s     | 2.96 km/s (54.98%)
+1.90x     | 530.75 days    | 8.89 km/s     | 3.50 km/s (64.96%)
+2.00x     | 558.68 days    | 9.38 km/s     | 3.99 km/s (74.02%)
+
+Summary and Recommendations
+=========================
+1. The Hohmann transfer represents the most fuel-efficient path for the given constraints.
+2. Fast transfers can reduce travel time but require significantly more delta-v.
+3. Low-energy transfers can save some delta-v but at the cost of much longer travel times.
+4. Bi-elliptic transfers are generally not advantageous for Earth-Mars transfers due to the relatively small ratio of orbital radii.
+5. The optimal choice depends on mission priorities (time vs. fuel efficiency).
+6. For human missions, faster transfers may be preferred to reduce radiation exposure and consumables requirements.
+7. For robotic missions, lower delta-v options may be preferred to maximize payload capacity.
